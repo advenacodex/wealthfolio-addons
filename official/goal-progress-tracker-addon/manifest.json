@@ -1,12 +1,12 @@
 {
   "id": "goal-progress-tracker-addon",
   "name": "Goal Progress Tracker",
-  "version": "3.6.2",
+  "version": "3.11.0",
   "description": "A simple addon to track your investment progress towards target amounts with a visual representation",
   "author": "Wealthfolio",
   "main": "dist/addon.js",
-  "sdkVersion": "3.6.2",
-  "minWealthfolioVersion": "3.6.2",
+  "sdkVersion": "3.11.0",
+  "minWealthfolioVersion": "3.11.0",
   "enabled": true,
   "contributes": {
     "routes": [{ "id": "investment-target-tracker" }],
@@ -24,8 +24,8 @@
   },
   "hostDependencies": {
     "@tanstack/react-query": "^5.90.0",
-    "@wealthfolio/addon-sdk": "^3.6.2",
-    "@wealthfolio/ui": "^3.6.2",
+    "@wealthfolio/addon-sdk": "^3.11.0",
+    "@wealthfolio/ui": "^3.11.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
